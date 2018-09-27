@@ -1,6 +1,6 @@
 # Machine Learning Engineer Nanodegree
 ## Capstone Proposal
-Hossam Fawzy Elsafty
+Hossam Fawzy Elsafty <br>
 Septmber 27th,2018
 
 ## Dogs vs. Cats Classification
@@ -11,9 +11,6 @@ you'll write an algorithm to classify whether images contain either a dog or a c
 ![alt text](https://raw.githubusercontent.com/hosamelsafty/Cats-VS-Dogs/master/woof_meow.jpg?token=AgwGphlRy5nAWk6QdJGdJ4Vro5N-aZuTks5btgZYwA%3D%3D)
 
 
-Deep Blue beat Kasparov at chess in 1997.
-Watson beat the brightest trivia minds at Jeopardy in 2011.
-Can you tell Fido from Mittens in 2013?
 
 ### The Asirra data set
 Web services are often protected with a challenge that's supposed to be easy for people to solve, but difficult for computers. Such a challenge is often called a CAPTCHA (Completely Automated Public Turing test to tell Computers and Humans Apart) or HIP (Human Interactive Proof). HIPs are used for many purposes, such as to reduce email and blog spam and prevent brute-force attacks on web site passwords.
@@ -23,10 +20,11 @@ Asirra (Animal Species Image Recognition for Restricting Access) is a HIP that w
 Asirra is unique because of its partnership with Petfinder.com, the world's largest site devoted to finding homes for homeless pets. They've provided Microsoft Research with over three million images of cats and dogs, manually classified by people at thousands of animal shelters across the United States. Kaggle is fortunate to offer a subset of this data for fun and research. 
 
 ### Domain Background
-_(approx. 1-2 paragraphs)_
-
-In this section, provide brief details on the background information of the domain from which the project is proposed. Historical information relevant to the project should be included. It should be clear how or why a problem in the domain can or should be solved. Related academic research should be appropriately cited in this section, including why that research is relevant. Additionally, a discussion of your personal motivation for investigating a particular problem in the domain is encouraged but not required.
-
+Deep Learning is one of the most promising field in machine learning and used to achieve many classification of images and detect the type of objects in pictures,Computer vision and pattern recognition such as ( Reenacting politicians, Restore colors in B&W photos and videos , Pixel restoration CSI style). we will use Convolutional Neural Networks to train classifer if the picture contain dogs or cats that will help as to use many application like CAPTCHA.
+Convolutional Neural Networks is used in many feild similar to this problem like Flowers Recognition [kaggle](https://www.kaggle.com/alxmamaev/flowers-recognition) . 
+Also This problem was a challenge on Kaggle on this [link](https://www.kaggle.com/c/dogs-vs-cats).
+resources: [link] (http://www.yaronhadad.com/deep-learning-most-amazing-applications/)
+  
 ### Problem Statement
 _(approx. 1 paragraph)_
 
