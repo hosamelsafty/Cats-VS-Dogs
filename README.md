@@ -8,6 +8,7 @@ Septmber 27th,2018
 ###  Introduction
 you'll write an algorithm to classify whether images contain either a dog or a cat.  This is easy for humans, dogs, and cats. Your computer will find it a bit more difficult.
 
+![alt text](https://raw.githubusercontent.com/hosamelsafty/Cats-VS-Dogs/master/woof_meow.jpg?token=AgwGphlRy5nAWk6QdJGdJ4Vro5N-aZuTks5btgZYwA%3D%3D)
 
 
 Deep Blue beat Kasparov at chess in 1997.
