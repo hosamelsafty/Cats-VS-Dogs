@@ -51,13 +51,25 @@ the score in the competition is the percentage of correct prediction in the test
 
 ### Evaluation Metrics
 Accuracy in classification problems is the number of correct predictions made by the model over all kinds predictions made.
-
+![alt text](https://raw.githubusercontent.com/hosamelsafty/Cats-VS-Dogs/master/1_5XuZ_86Rfce3qyLt7XMlhw.png?token=AgwGpjsDQHRUz0tg5fOfw_MopxTykxLuks5bujGAwA%3D%3D)
+[resources](https://medium.com/greyatom/performance-metrics-for-classification-problems-in-machine-learning-part-i-b085d432082b)
 ### Project Design
-_(approx. 1 page)_
 
-In this final section, summarize a theoretical workflow for approaching a solution given the problem. Provide thorough discussion for what strategies you may consider employing, what analysis of the data might be required before being used, or which algorithms will be considered for your implementation. The workflow and discussion that you provide should align with the qualities of the previous sections. Additionally, you are encouraged to include small visualizations, pseudocode, or diagrams to aid in describing the project design, but it is not required. The discussion should clearly outline your intended workflow of the capstone project.
+The project will be processed in steps:
+- Data Analysis
+	- Data reading
+	- Data visualization – using maps, heat maps and contour plots to observe the crime distribution by different features. 
+- Data preprocessing
+	- Relevant information 
+	- Data transformation
+	- Dataset split
+	- Dataset reduction (clustering)
+- Models implementation
+	- Implement many algorithms to compare them
+- Models evaluation
+	- Evaluate each algorithm and choose the best using the evaluation metrics.
+- Conclusion and result
 
------------
 
 **Before submitting your proposal, ask yourself. . .**
 
