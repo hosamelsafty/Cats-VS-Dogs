@@ -51,30 +51,23 @@ the score in the competition is the percentage of correct prediction in the test
 
 ### Evaluation Metrics
 Accuracy in classification problems is the number of correct predictions made by the model over all kinds predictions made.
-![alt text](https://raw.githubusercontent.com/hosamelsafty/Cats-VS-Dogs/master/1_5XuZ_86Rfce3qyLt7XMlhw.png?token=AgwGpjsDQHRUz0tg5fOfw_MopxTykxLuks5bujGAwA%3D%3D)
 [resources](https://medium.com/greyatom/performance-metrics-for-classification-problems-in-machine-learning-part-i-b085d432082b)
+![alt text](https://raw.githubusercontent.com/hosamelsafty/Cats-VS-Dogs/master/1_5XuZ_86Rfce3qyLt7XMlhw.png?token=AgwGpjsDQHRUz0tg5fOfw_MopxTykxLuks5bujGAwA%3D%3D)
+
 ### Project Design
 
 The project will be processed in steps:
 - Data Analysis
-	- Data reading
-	- Data visualization – using maps, heat maps and contour plots to observe the crime distribution by different features. 
+	- Data reading and spliting.
+	- Data visualization.
 - Data preprocessing
-	- Relevant information 
-	- Data transformation
-	- Dataset split
-	- Dataset reduction (clustering)
+	- split the training data into training and validation data.
+	- image resize to fixed size and all image with the same size.
+	- RGB rescale value from 0~1
 - Models implementation
-	- Implement many algorithms to compare them
+	- implemeting the model using keras from skratch .
+	- using transer flow use VGG-19 ,ResNet-50 ,Inception ,Xception.
 - Models evaluation
 	- Evaluate each algorithm and choose the best using the evaluation metrics.
 - Conclusion and result
 
-
-**Before submitting your proposal, ask yourself. . .**
-
-- Does the proposal you have written follow a well-organized structure similar to that of the project template?
-- Is each section (particularly **Solution Statement** and **Project Design**) written in a clear, concise and specific fashion? Are there any ambiguous terms or phrases that need clarification?
-- Would the intended audience of your project be able to understand your proposal?
-- Have you properly proofread your proposal to assure there are minimal grammatical and spelling mistakes?
-- Are all the resources used for this project correctly cited and referenced?
