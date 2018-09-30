@@ -26,29 +26,31 @@ Also This problem was a challenge on Kaggle on this [link](https://www.kaggle.co
 resources: [link] (http://www.yaronhadad.com/deep-learning-most-amazing-applications/)
   
 ### Problem Statement
-_(approx. 1 paragraph)_
-
-In this section, clearly describe the problem that is to be solved. The problem described should be well defined and should have at least one relevant potential solution. Additionally, describe the problem thoroughly such that it is clear that the problem is quantifiable (the problem can be expressed in mathematical or logical terms) , measurable (the problem can be measured by some metric and clearly observed), and replicable (the problem can be reproduced and occurs more than once).
+This is a Classification problem given Thousands of cats and dogs picture , We need to classify if the picture is picture of dog or cat.
 
 ### Datasets and Inputs
-_(approx. 2-3 paragraphs)_
+The training archive contains 25,000 images of dogs and cats. Train your algorithm on these files and predict the labels for test1.zip (1 = dog, 0 = cat).
 
-In this section, the dataset(s) and/or input(s) being considered for the project should be thoroughly described, such as how they relate to the problem and why they should be used. Information such as how the dataset or input is (was) obtained, and the characteristics of the dataset or input, should be included with relevant references and citations as necessary It should be clear how the dataset(s) or input(s) will be used in the project and whether their use is appropriate given the context of the problem.
-
+we will train in this data in this [link](https://www.kaggle.com/c/dogs-vs-cats/data).
 ### Solution Statement
-_(approx. 1 paragraph)_
+1- load data.
+2- split the training into training and validation data.
+3- preprocessing the data such as: (resize, RGB color value 0~1). 
+4- build CNN model from skratch (using keras)
+5- build model using Transfer Learning :
+VGG-19 bottleneck features
+ResNet-50 bottleneck features
+Inception bottleneck features
+Xception bottleneck features
 
-In this section, clearly describe a solution to the problem. The solution should be applicable to the project domain and appropriate for the dataset(s) or input(s) given. Additionally, describe the solution thoroughly such that it is clear that the solution is quantifiable (the solution can be expressed in mathematical or logical terms) , measurable (the solution can be measured by some metric and clearly observed), and replicable (the solution can be reproduced and occurs more than once).
+and choose the best one with high accuracy.
 
 ### Benchmark Model
-_(approximately 1-2 paragraphs)_
-
-In this section, provide the details for a benchmark model or result that relates to the domain, problem statement, and intended solution. Ideally, the benchmark model or result contextualizes existing methods or known information in the domain and problem given, which could then be objectively compared to the solution. Describe how the benchmark model or result is measurable (can be measured by some metric and clearly observed) with thorough detail.
+in the kaggle competition in the loadboard the best time that make high score is :Pierre Sermanet score is :0.98533
+the score in the competition is the percentage of correct prediction in the testing set.
 
 ### Evaluation Metrics
-_(approx. 1-2 paragraphs)_
-
-In this section, propose at least one evaluation metric that can be used to quantify the performance of both the benchmark model and the solution model. The evaluation metric(s) you propose should be appropriate given the context of the data, the problem statement, and the intended solution. Describe how the evaluation metric(s) are derived and provide an example of their mathematical representations (if applicable). Complex evaluation metrics should be clearly defined and quantifiable (can be expressed in mathematical or logical terms).
+Accuracy in classification problems is the number of correct predictions made by the model over all kinds predictions made.
 
 ### Project Design
 _(approx. 1 page)_
