@@ -29,7 +29,7 @@ the most important metrics to measure the performance of the classification is A
 Accuracy in classification problems is the number of correct predictions made by the model over all kinds predictions made.
 [resources](https://medium.com/greyatom/performance-metrics-for-classification-problems-in-machine-learning-part-i-b085d432082b)
 
-#####Terms associated with Confusion matrix:
+##### Terms associated with Confusion matrix:
 
 
 1. True Positives (TP): True positives are the cases when the actual class of the data point was (True) and the predicted is also (True)
@@ -41,7 +41,7 @@ Ex: The case where a person is actually having cancer(1) and the model classifyi
 
 4. False Negatives (FN): False negatives are the cases when the actual class of the data point was 1(True) and the predicted is 0(False). False is because the model has predicted incorrectly and negative because the class predicted was a negative one. (0) <br> Ex: A person having cancer and the model classifying his case as No-cancer comes under False Negatives.
 
-####Log Loss 
+#### Log Loss 
 Logarithmic loss (related to cross-entropy) measures the performance of a classification model where the prediction input is a probability value between 0 and 1. The goal of our machine learning models is to minimize this value. A perfect model would have a log loss of 0. Log loss increases as the predicted probability diverges from the actual label. So predicting a probability of .012 when the actual observation label is 1 would be bad and result in a high log loss. 
 ##### Log Loss vs Accuracy
 - Accuracy is the count of predictions where your predicted value equals the actual value. Accuracy is not always a good indicator because of its yes or no nature.
@@ -75,7 +75,7 @@ some image in dataset is hard to detect if it is cat or dog such as images conta
 [![](https://lh6.googleusercontent.com/Y0IgeBXzK7HdkN1GCswJIQm3BRXwSPdoH0lGqH9dcJL-Vw4Yw71w1xanyeajG6Z5Cn2umZ_wmbi1FbhM1oLy=w2880-h1406)](https://lh6.googleusercontent.com/Y0IgeBXzK7HdkN1GCswJIQm3BRXwSPdoH0lGqH9dcJL-Vw4Yw71w1xanyeajG6Z5Cn2umZ_wmbi1FbhM1oLy=w2880-h1406)
 [![](https://lh3.googleusercontent.com/T4Wr9CRYCo5BFkf86aH4kY4YM7hRwUeqIJ55uk35x3KR2H2AwzDTIhQEsMOA5flgQio4LTgeCzrUZpfqyWzp=w2880-h1406)](httphttps://lh3.googleusercontent.com/T4Wr9CRYCo5BFkf86aH4kY4YM7hRwUeqIJ55uk35x3KR2H2AwzDTIhQEsMOA5flgQio4LTgeCzrUZpfqyWzp=w2880-h1406://)
 ### Exploratory Visualization
-#####images from Dataset before preprocessing and after preprocessing:
+##### images from Dataset before preprocessing and after preprocessing:
 [![](https://preview.ibb.co/cgF5rz/Screen_Shot_2018_10_06_at_5_47_22_PM.png)](https://preview.ibb.co/cgF5rz/Screen_Shot_2018_10_06_at_5_47_22_PM.png)
 to become the same size to can load it easily then we convert it to array of number every picture has 3 array for RGB
 ### Algorithms and Techniques
